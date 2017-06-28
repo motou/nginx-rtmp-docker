@@ -1,9 +1,9 @@
 # Dockerfile for a simple Nginx stream replicator
 
 # Software versions
-FROM alpine:3.4
-ENV NGINX_VERSION nginx-1.11.4
-ENV NGINX_RTMP_MODULE_VERSION 1.1.7.10
+FROM resin/raspberry-pi2-alpine:latest
+ENV NGINX_VERSION nginx-1.13.2
+ENV NGINX_RTMP_MODULE_VERSION 1.1.11
 
 # Set up user
 ENV USER nginx
